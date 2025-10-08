@@ -1,0 +1,81 @@
+[Mon Oct  6 01:10:39 PM +08 2025] Job starting on: xgpi6
+/home/stuproj/tkr-ml/venvs/llama2-70b/bin/python
+Python 3.12.3
+sys.path = [
+    '/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP',
+    '/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages',
+    '/usr/lib/python312.zip',
+    '/usr/lib/python3.12',
+    '/usr/lib/python3.12/lib-dynload',
+]
+USER_BASE: '/home/stuproj/tkr-ml/.local' (exists)
+USER_SITE: '/home/stuproj/tkr-ml/.local/lib/python3.12/site-packages' (doesn't exist)
+ENABLE_USER_SITE: False
+python /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train_stage1_triplane_vae.py --name triplane_vae_softnet --dataset_mode softnet_sdf --dataroot /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128 --cat all --res 128 --batch_size 8 --lr 0.0001 --total_iters 200000 --save_steps_freq 10000 --print_freq 100 --display_freq 1000 --gpu_ids 0 --continue_train --ckpt ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+------------ Options -------------
+backend: gloo
+batch_size: 8
+cat: all
+ckpt: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+continue_train: True
+dataroot: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+dataset_mode: softnet_sdf
+ddim_eta: 0.0
+ddim_steps: 100
+debug: 0
+device: cuda
+df_cfg: configs/sdfusion_snet.yaml
+display_freq: 1000
+distributed: False
+gpu_ids: 0
+gpu_ids_str: 0
+isTrain: True
+lambda_L1: 10.0
+local_rank: 0
+logs_dir: ./logs
+lr: 0.0001
+lr_decay_iters: 50
+lr_policy: lambda
+max_dataset_size: 2147483648
+model: sdfusion
+nThreads: 9
+name: continue-triplane_vae_softnet
+phase: train
+print_freq: 100
+rank: 0
+ratio: 1.0
+res: 128
+save_epoch_freq: 5
+save_latest_freq: 500
+save_steps_freq: 10000
+seed: 111
+serial_batches: False
+total_iters: 200000
+trunc_thres: 0.2
+uc_scale: 1.0
+vq_cat: None
+vq_cfg: configs/vqvae_snet.yaml
+vq_ckpt: None
+vq_dset: None
+vq_model: vqvae
+which_epoch: latest
+-------------- End ----------------
+[*] Starting Triplane VAE Training
+    Model: triplane-vae
+    Config: configs/triplane_vae_config.yaml
+    Device: cuda
+[*] Loading Softnet SDF data from: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+[*] Found 22 train samples
+[*] Loading Softnet SDF data from: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+[*] Found 6 test samples
+[*] Dataset has been created: SoftnetSDFDataset
+train_dataset:  <datasets.softnet_sdf_dataset.SoftnetSDFDataset object at 0x7b3ead697f50>
+test_dataset:  <datasets.softnet_sdf_dataset.SoftnetSDFDataset object at 0x7b3e95ca6420>
+---------- Networks initialized -------------
+-----------------------------------------------
+[*] Weight successfully loaded from: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[*] Model has been created: TriplaneVAE-Model
+[*] create image directory:
+/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/logs/continue-triplane_vae_softnet/images...
+[*] Start training. name: continue-triplane_vae_softnet
+[Mon Oct  6 01:10:54 PM +08 2025] Job finished.

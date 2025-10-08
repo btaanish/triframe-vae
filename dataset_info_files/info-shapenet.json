@@ -1,0 +1,14 @@
+{
+    "lst_dir": "../dataset_info_files/ShapeNet_filelists",
+    "cats": {
+        "bending": "01"
+    },
+    "all_cats": [
+        "bending"
+    ],
+    "raw_dirs_v1": {
+        "mesh_dir": "../data/ShapeNet/ShapeNetCore.v1/",
+        "norm_mesh_dir": "../data/ShapeNet/norm_mesh_dir_v1/",
+        "sdf_dir": "../data/ShapeNet/SDF_v1"
+    }
+}

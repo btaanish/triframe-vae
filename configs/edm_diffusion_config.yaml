@@ -1,0 +1,42 @@
+# EDM Diffusion Configuration for Triplane Latents
+
+model:
+  params:
+    conditioning_key: "crossattn" # text conditioning via cross-attention
+    sigma_data: 0.5 # EDM: data standard deviation
+    sigma_min: 0.002 # EDM: minimum noise level
+    sigma_max: 80.0 # EDM: maximum noise level
+
+# U-Net configuration (2D for triplane)
+unet:
+  params:
+    image_size: 8 # triplane spatial dimension (64 / 2^3)
+    in_channels: 96 # 3 planes × 32 channels
+    out_channels: 96
+    model_channels: 256 # base model width
+    num_res_blocks: 2 # residual blocks per level
+    attention_resolutions: [4, 2, 1] # where to apply attention
+    channel_mult: [1, 2, 4, 4] # channel multipliers
+    num_heads: 8
+    use_spatial_transformer: true # for cross-attention
+    transformer_depth: 1
+    context_dim: 1280 # BERT embedding dimension
+    dims: 2 # 2D (triplane) not 3D
+    use_checkpoint: false
+    legacy: false
+
+# Text encoder (BERT)
+bert:
+  params:
+    n_embed: 1280 # output embedding dimension
+    vocab_size: 30522 # BERT vocab size
+    max_seq_len: 77 # max text length
+
+# EDM sampling parameters
+edm:
+  params:
+    rho: 7.0 # noise schedule density
+    num_steps: 50 # default sampling steps
+    s_churn: 0.0 # stochasticity (0=deterministic)
+    s_noise: 1.0
+    cfg_scale: 3.0 # classifier-free guidance scale

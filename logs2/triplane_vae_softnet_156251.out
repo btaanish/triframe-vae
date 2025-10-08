@@ -1,0 +1,240 @@
+[Mon Oct  6 12:36:21 PM +08 2025] Job starting on: xgpi2
+/home/stuproj/tkr-ml/venvs/llama2-70b/bin/python
+Python 3.12.3
+sys.path = [
+    '/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP',
+    '/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages',
+    '/usr/lib/python312.zip',
+    '/usr/lib/python3.12',
+    '/usr/lib/python3.12/lib-dynload',
+]
+USER_BASE: '/home/stuproj/tkr-ml/.local' (exists)
+USER_SITE: '/home/stuproj/tkr-ml/.local/lib/python3.12/site-packages' (doesn't exist)
+ENABLE_USER_SITE: False
+python /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train_stage1_triplane_vae.py --name triplane_vae_softnet --dataset_mode softnet_sdf --dataroot /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128 --cat all --res 128 --batch_size 2 --lr 0.0001 --total_iters 200000 --save_steps_freq 10000 --print_freq 100 --display_freq 1000 --gpu_ids 0
+------------ Options -------------
+backend: gloo
+batch_size: 2
+cat: all
+ckpt: None
+continue_train: False
+dataroot: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+dataset_mode: softnet_sdf
+ddim_eta: 0.0
+ddim_steps: 100
+debug: 0
+device: cuda
+df_cfg: configs/sdfusion_snet.yaml
+display_freq: 1000
+distributed: False
+gpu_ids: 0
+gpu_ids_str: 0
+isTrain: True
+lambda_L1: 10.0
+local_rank: 0
+logs_dir: ./logs
+lr: 0.0001
+lr_decay_iters: 50
+lr_policy: lambda
+max_dataset_size: 2147483648
+model: sdfusion
+nThreads: 9
+name: triplane_vae_softnet
+phase: train
+print_freq: 100
+rank: 0
+ratio: 1.0
+res: 128
+save_epoch_freq: 5
+save_latest_freq: 500
+save_steps_freq: 10000
+seed: 111
+serial_batches: False
+total_iters: 200000
+trunc_thres: 0.2
+uc_scale: 1.0
+vq_cat: None
+vq_cfg: configs/vqvae_snet.yaml
+vq_ckpt: None
+vq_dset: None
+vq_model: vqvae
+which_epoch: latest
+-------------- End ----------------
+[*] Starting Triplane VAE Training
+    Model: triplane-vae
+    Config: configs/triplane_vae_config.yaml
+    Device: cuda
+[*] Loading Softnet SDF data from: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+[*] Found 22 train samples
+[*] Loading Softnet SDF data from: /home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/data/Softnet/SDF_v1/resolution_128
+[*] Found 6 test samples
+[*] Dataset has been created: SoftnetSDFDataset
+train_dataset:  <datasets.softnet_sdf_dataset.SoftnetSDFDataset object at 0x77bb047af7d0>
+test_dataset:  <datasets.softnet_sdf_dataset.SoftnetSDFDataset object at 0x77bb1cd7f650>
+---------- Networks initialized -------------
+-----------------------------------------------
+[*] Model has been created: TriplaneVAE-Model
+[*] create image directory:
+/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/logs/triplane_vae_softnet/images...
+[*] Start training. name: triplane_vae_softnet
+[triplane_vae_softnet] (GPU: 0, iters: 0, time: 2.604) total: 1.633913 rec: 1.209400 kl: 4245.127441 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[*] learning rate = 0.0001000
+[triplane_vae_softnet] (GPU: 0, iters: 100, time: 18.697) total: 0.128183 rec: 0.084558 kl: 436.244934 
+[triplane_vae_softnet] (GPU: 0, iters: 200, time: 34.593) total: 0.081542 rec: 0.049116 kl: 324.262024 
+[triplane_vae_softnet] (GPU: 0, iters: 300, time: 50.527) total: 0.063341 rec: 0.035785 kl: 275.560791 
+[triplane_vae_softnet] (GPU: 0, iters: 400, time: 66.346) total: 0.067105 rec: 0.046218 kl: 208.877243 
+saving the latest model (current_iter 499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 500, time: 82.715) total: 0.049967 rec: 0.029429 kl: 205.376434 
+[triplane_vae_softnet] (GPU: 0, iters: 600, time: 98.701) total: 0.043078 rec: 0.027217 kl: 158.612671 
+[triplane_vae_softnet] (GPU: 0, iters: 700, time: 114.870) total: 0.042105 rec: 0.027042 kl: 150.632507 
+[triplane_vae_softnet] (GPU: 0, iters: 800, time: 130.960) total: 0.033712 rec: 0.020159 kl: 135.527374 
+[triplane_vae_softnet] (GPU: 0, iters: 900, time: 147.023) total: 0.037478 rec: 0.021739 kl: 157.394806 
+saving the latest model (current_iter 999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 1000, time: 163.526) total: 0.029184 rec: 0.016076 kl: 131.080597 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 1100, time: 179.787) total: 0.032103 rec: 0.020323 kl: 117.792953 
+[triplane_vae_softnet] (GPU: 0, iters: 1200, time: 195.908) total: 0.023841 rec: 0.011749 kl: 120.925003 
+[triplane_vae_softnet] (GPU: 0, iters: 1300, time: 211.969) total: 0.022293 rec: 0.011314 kl: 109.785721 
+[triplane_vae_softnet] (GPU: 0, iters: 1400, time: 228.118) total: 0.020787 rec: 0.009710 kl: 110.763733 
+saving the latest model (current_iter 1499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 1500, time: 244.628) total: 0.021665 rec: 0.010557 kl: 111.082451 
+[triplane_vae_softnet] (GPU: 0, iters: 1600, time: 260.730) total: 0.021405 rec: 0.011109 kl: 102.964783 
+[triplane_vae_softnet] (GPU: 0, iters: 1700, time: 276.941) total: 0.021487 rec: 0.010502 kl: 109.854912 
+[triplane_vae_softnet] (GPU: 0, iters: 1800, time: 293.049) total: 0.020758 rec: 0.010535 kl: 102.226875 
+[triplane_vae_softnet] (GPU: 0, iters: 1900, time: 309.140) total: 0.022453 rec: 0.011430 kl: 110.227135 
+saving the latest model (current_iter 1999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 2000, time: 325.743) total: 0.019412 rec: 0.008848 kl: 105.637428 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 2100, time: 342.020) total: 0.018648 rec: 0.008112 kl: 105.354095 
+[triplane_vae_softnet] (GPU: 0, iters: 2200, time: 358.126) total: 0.020643 rec: 0.010617 kl: 100.262337 
+[triplane_vae_softnet] (GPU: 0, iters: 2300, time: 374.083) total: 0.020329 rec: 0.009297 kl: 110.313828 
+[triplane_vae_softnet] (GPU: 0, iters: 2400, time: 390.223) total: 0.019033 rec: 0.009318 kl: 97.148193 
+saving the latest model (current_iter 2499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 2500, time: 406.662) total: 0.018072 rec: 0.008158 kl: 99.144882 
+[triplane_vae_softnet] (GPU: 0, iters: 2600, time: 422.792) total: 0.015840 rec: 0.005830 kl: 100.101242 
+[triplane_vae_softnet] (GPU: 0, iters: 2700, time: 438.824) total: 0.015957 rec: 0.006250 kl: 97.071320 
+[triplane_vae_softnet] (GPU: 0, iters: 2800, time: 454.924) total: 0.016577 rec: 0.006685 kl: 98.928169 
+[triplane_vae_softnet] (GPU: 0, iters: 2900, time: 471.094) total: 0.017860 rec: 0.008112 kl: 97.483704 
+saving the latest model (current_iter 2999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 3000, time: 487.591) total: 0.018782 rec: 0.009408 kl: 93.739014 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 3100, time: 504.023) total: 0.016132 rec: 0.006425 kl: 97.075928 
+[triplane_vae_softnet] (GPU: 0, iters: 3200, time: 520.255) total: 0.018093 rec: 0.008356 kl: 97.366013 
+[triplane_vae_softnet] (GPU: 0, iters: 3300, time: 536.427) total: 0.016258 rec: 0.006517 kl: 97.415291 
+[triplane_vae_softnet] (GPU: 0, iters: 3400, time: 552.656) total: 0.017849 rec: 0.008148 kl: 97.009613 
+saving the latest model (current_iter 3499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 3500, time: 569.330) total: 0.019526 rec: 0.009613 kl: 99.132111 
+[triplane_vae_softnet] (GPU: 0, iters: 3600, time: 585.474) total: 0.016709 rec: 0.007025 kl: 96.842621 
+[triplane_vae_softnet] (GPU: 0, iters: 3700, time: 601.762) total: 0.017502 rec: 0.007260 kl: 102.418640 
+[triplane_vae_softnet] (GPU: 0, iters: 3800, time: 618.017) total: 0.017161 rec: 0.007188 kl: 99.734756 
+[triplane_vae_softnet] (GPU: 0, iters: 3900, time: 634.163) total: 0.016826 rec: 0.006365 kl: 104.613777 
+saving the latest model (current_iter 3999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 4000, time: 650.842) total: 0.015353 rec: 0.005784 kl: 95.682526 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 4100, time: 667.089) total: 0.016271 rec: 0.006976 kl: 92.954712 
+[triplane_vae_softnet] (GPU: 0, iters: 4200, time: 683.184) total: 0.015372 rec: 0.005815 kl: 95.570824 
+[triplane_vae_softnet] (GPU: 0, iters: 4300, time: 699.416) total: 0.015338 rec: 0.005306 kl: 100.318100 
+[triplane_vae_softnet] (GPU: 0, iters: 4400, time: 715.499) total: 0.015659 rec: 0.006056 kl: 96.031830 
+saving the latest model (current_iter 4499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 4500, time: 732.122) total: 0.015179 rec: 0.005179 kl: 100.002487 
+[triplane_vae_softnet] (GPU: 0, iters: 4600, time: 748.305) total: 0.013907 rec: 0.003921 kl: 99.860947 
+[triplane_vae_softnet] (GPU: 0, iters: 4700, time: 764.508) total: 0.014261 rec: 0.004427 kl: 98.341629 
+[triplane_vae_softnet] (GPU: 0, iters: 4800, time: 780.663) total: 0.016738 rec: 0.006755 kl: 99.827072 
+[triplane_vae_softnet] (GPU: 0, iters: 4900, time: 796.789) total: 0.013813 rec: 0.003926 kl: 98.870102 
+saving the latest model (current_iter 4999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 5000, time: 813.300) total: 0.017971 rec: 0.008298 kl: 96.730682 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 5100, time: 829.617) total: 0.014287 rec: 0.004631 kl: 96.565590 
+[triplane_vae_softnet] (GPU: 0, iters: 5200, time: 845.763) total: 0.016258 rec: 0.006180 kl: 100.783722 
+[triplane_vae_softnet] (GPU: 0, iters: 5300, time: 861.892) total: 0.014602 rec: 0.004993 kl: 96.089828 
+[triplane_vae_softnet] (GPU: 0, iters: 5400, time: 877.959) total: 0.014980 rec: 0.005157 kl: 98.226013 
+saving the latest model (current_iter 5499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 5500, time: 894.502) total: 0.014419 rec: 0.004683 kl: 97.361748 
+[triplane_vae_softnet] (GPU: 0, iters: 5600, time: 910.676) total: 0.017086 rec: 0.007367 kl: 97.186287 
+[triplane_vae_softnet] (GPU: 0, iters: 5700, time: 927.098) total: 0.014454 rec: 0.004986 kl: 94.673126 
+[triplane_vae_softnet] (GPU: 0, iters: 5800, time: 943.263) total: 0.014894 rec: 0.004946 kl: 99.480598 
+[triplane_vae_softnet] (GPU: 0, iters: 5900, time: 959.404) total: 0.016028 rec: 0.006721 kl: 93.066833 
+saving the latest model (current_iter 5999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 6000, time: 976.046) total: 0.013702 rec: 0.004132 kl: 95.703293 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 6100, time: 992.371) total: 0.016015 rec: 0.006369 kl: 96.460838 
+[triplane_vae_softnet] (GPU: 0, iters: 6200, time: 1008.468) total: 0.014798 rec: 0.005114 kl: 96.843361 
+[triplane_vae_softnet] (GPU: 0, iters: 6300, time: 1024.549) total: 0.015011 rec: 0.005367 kl: 96.437119 
+[triplane_vae_softnet] (GPU: 0, iters: 6400, time: 1040.764) total: 0.014458 rec: 0.004787 kl: 96.708832 
+saving the latest model (current_iter 6499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 6500, time: 1057.366) total: 0.015033 rec: 0.005155 kl: 98.783806 
+[triplane_vae_softnet] (GPU: 0, iters: 6600, time: 1073.549) total: 0.017366 rec: 0.007249 kl: 101.164368 
+[triplane_vae_softnet] (GPU: 0, iters: 6700, time: 1089.684) total: 0.016012 rec: 0.006249 kl: 97.627441 
+[triplane_vae_softnet] (GPU: 0, iters: 6800, time: 1105.868) total: 0.015975 rec: 0.006676 kl: 92.987701 
+[triplane_vae_softnet] (GPU: 0, iters: 6900, time: 1122.093) total: 0.015792 rec: 0.006153 kl: 96.391785 
+saving the latest model (current_iter 6999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 7000, time: 1138.626) total: 0.014834 rec: 0.004870 kl: 99.631821 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 7100, time: 1154.883) total: 0.015131 rec: 0.005719 kl: 94.115311 
+[triplane_vae_softnet] (GPU: 0, iters: 7200, time: 1170.954) total: 0.017526 rec: 0.007476 kl: 100.499680 
+[triplane_vae_softnet] (GPU: 0, iters: 7300, time: 1186.962) total: 0.014626 rec: 0.004791 kl: 98.347313 
+[triplane_vae_softnet] (GPU: 0, iters: 7400, time: 1202.996) total: 0.014823 rec: 0.005159 kl: 96.646530 
+saving the latest model (current_iter 7499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 7500, time: 1219.476) total: 0.017463 rec: 0.007637 kl: 98.258659 
+[triplane_vae_softnet] (GPU: 0, iters: 7600, time: 1235.433) total: 0.013749 rec: 0.004398 kl: 93.515900 
+[triplane_vae_softnet] (GPU: 0, iters: 7700, time: 1251.512) total: 0.014977 rec: 0.005095 kl: 98.820091 
+[triplane_vae_softnet] (GPU: 0, iters: 7800, time: 1267.688) total: 0.015891 rec: 0.006192 kl: 96.990540 
+[triplane_vae_softnet] (GPU: 0, iters: 7900, time: 1283.819) total: 0.014316 rec: 0.004471 kl: 98.457138 
+saving the latest model (current_iter 7999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 8000, time: 1300.421) total: 0.014242 rec: 0.004593 kl: 96.489594 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 8100, time: 1316.743) total: 0.015353 rec: 0.005744 kl: 96.096161 
+[triplane_vae_softnet] (GPU: 0, iters: 8200, time: 1332.885) total: 0.015743 rec: 0.006123 kl: 96.205345 
+[triplane_vae_softnet] (GPU: 0, iters: 8300, time: 1349.107) total: 0.013541 rec: 0.003849 kl: 96.917114 
+[triplane_vae_softnet] (GPU: 0, iters: 8400, time: 1365.266) total: 0.014560 rec: 0.004862 kl: 96.977043 
+saving the latest model (current_iter 8499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 8500, time: 1381.875) total: 0.014246 rec: 0.004753 kl: 94.934296 
+[triplane_vae_softnet] (GPU: 0, iters: 8600, time: 1397.923) total: 0.015375 rec: 0.005772 kl: 96.033211 
+[triplane_vae_softnet] (GPU: 0, iters: 8700, time: 1414.026) total: 0.013810 rec: 0.004349 kl: 94.609177 
+[triplane_vae_softnet] (GPU: 0, iters: 8800, time: 1430.179) total: 0.016174 rec: 0.006508 kl: 96.660782 
+[triplane_vae_softnet] (GPU: 0, iters: 8900, time: 1446.269) total: 0.015609 rec: 0.006400 kl: 92.088997 
+saving the latest model (current_iter 8999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 9000, time: 1462.851) total: 0.014248 rec: 0.004620 kl: 96.284416 
+[warn] visualization skipped: Not compiled with GPU support
+[warn] visualization skipped: Not compiled with GPU support
+[triplane_vae_softnet] (GPU: 0, iters: 9100, time: 1479.126) total: 0.015829 rec: 0.006005 kl: 98.234306 
+[triplane_vae_softnet] (GPU: 0, iters: 9200, time: 1495.222) total: 0.015010 rec: 0.005255 kl: 97.548149 
+[triplane_vae_softnet] (GPU: 0, iters: 9300, time: 1511.349) total: 0.014164 rec: 0.004733 kl: 94.310837 
+[triplane_vae_softnet] (GPU: 0, iters: 9400, time: 1527.438) total: 0.015651 rec: 0.005746 kl: 99.047577 
+saving the latest model (current_iter 9499)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+[triplane_vae_softnet] (GPU: 0, iters: 9500, time: 1543.949) total: 0.014178 rec: 0.004476 kl: 97.021965 
+[triplane_vae_softnet] (GPU: 0, iters: 9600, time: 1559.984) total: 0.016420 rec: 0.006680 kl: 97.400703 
+[triplane_vae_softnet] (GPU: 0, iters: 9700, time: 1576.040) total: 0.015840 rec: 0.006601 kl: 92.390854 
+[triplane_vae_softnet] (GPU: 0, iters: 9800, time: 1592.106) total: 0.014876 rec: 0.005115 kl: 97.609909 
+[triplane_vae_softnet] (GPU: 0, iters: 9900, time: 1608.176) total: 0.016068 rec: 0.006599 kl: 94.687149 
+saving the latest model (current_iter 9999)
+[*] Model saved to: ./logs/triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth

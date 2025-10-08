@@ -1,0 +1,20 @@
+soft
+txt2 shape
+
+need the pretrained weight 
+text guided and VQVAE
+
+
+
+steps: 
+preprocessing (ShapeNet)
+1) Create SDF
+2) Create text splits
+ 
+training (ShapeNet)
+1) train VQVAE
+2) train diffusion
+
+(no need step 3, just do step 4)
+
+24GB VRAM not enough should rent a GPU server asap

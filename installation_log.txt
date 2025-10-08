@@ -1,0 +1,18 @@
+what works for me
+
+conda create -n sdfusion python=3.8 -y && conda activate sdfusion
+conda install -c fvcore -c iopath -c conda-forge fvcore iopath -y
+
+# install pytorch
+pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
+
+# install pytorch3d from source
+git clone https://github.com/facebookresearch/pytorch3d.git
+cd pytorch3d && pip install -e .
+
+pip install h5py joblib termcolor scipy einops tqdm matplotlib opencv-python PyMCubes imageio trimesh omegaconf tensorboard notebook 
+
+pip install transformers
+
+sudo apt-get update
+sudo apt-get install libglu1-mesa-dev

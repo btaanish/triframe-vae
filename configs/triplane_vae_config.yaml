@@ -1,0 +1,16 @@
+# Triplane VAE Configuration
+model:
+  params:
+    z_channels: 32 # latent channels per plane
+    ddconfig:
+      resolution: 128 # input SDF resolution
+      ch: 128 # base channel count
+      ch_mult: [1, 2, 4, 8, 8] # channel multipliers (3 downsamples = 64->8)
+      z_channels: 32 # matches above
+      in_channels: 1 # SDF has 1 channel
+      out_channels: 1
+
+lossconfig:
+  params:
+    kl_weight: 0.0001 # KL divergence weight (1e-6)
+    recon_weight: 1.0 # reconstruction weight

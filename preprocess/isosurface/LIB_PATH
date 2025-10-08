@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/content/drive/MyDrive/Colab Notebooks/Soft-Fusion-FYP/preprocess/isosurface:/content/drive/MyDrive/Colab Notebooks/Soft-Fusion-FYP/preprocess/isosurface/tbb/tbb2018_20180822oss/lib/intel64/gcc4.7:/usr/lib64-nvidia"

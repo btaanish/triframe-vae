@@ -1,0 +1,2 @@
+2024-04-18 vqvae, large dataset, no pretraining, 2024-04-18T20-16-47-vqvae-snet-all-res64-LR1e-4-T0.2-release
+2024-04-19 vqvae, large dataset, pretraining, continue-2024-04-19T01-23-32-vqvae-snet-all-res64-LR1e-4-T0.2-release

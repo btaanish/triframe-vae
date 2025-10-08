@@ -1,0 +1,166 @@
+================ Training Loss (Fri Nov 15 03:42:49 2024) ================
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 0, time: 0.735) total: 0.260551 simple: 0.260551 vlb: 0.061356 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 25, time: 8.926) total: 0.016816 simple: 0.016816 vlb: 0.000086 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 50, time: 10.635) total: 0.008333 simple: 0.008333 vlb: 0.000047 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 75, time: 12.343) total: 0.007093 simple: 0.007093 vlb: 0.000028 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 100) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 100, time: 14.043) total: 0.027283 simple: 0.027283 vlb: 0.000597 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 125, time: 21.273) total: 0.002397 simple: 0.002397 vlb: 0.000009 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 150, time: 22.975) total: 0.002246 simple: 0.002246 vlb: 0.000017 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 175, time: 24.682) total: 0.006378 simple: 0.006378 vlb: 0.000184 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 200) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 200, time: 26.393) total: 0.002546 simple: 0.002546 vlb: 0.000009 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 225, time: 33.634) total: 0.002867 simple: 0.002867 vlb: 0.000013 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 250, time: 35.332) total: 0.000673 simple: 0.000673 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 275, time: 37.023) total: 0.001805 simple: 0.001805 vlb: 0.000030 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 300) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 300, time: 38.733) total: 0.004306 simple: 0.004306 vlb: 0.000180 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 325, time: 45.969) total: 0.000498 simple: 0.000498 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 350, time: 47.661) total: 0.002725 simple: 0.002725 vlb: 0.000023 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 375, time: 49.367) total: 0.001159 simple: 0.001159 vlb: 0.000007 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 400) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 400, time: 51.081) total: 0.002058 simple: 0.002058 vlb: 0.000007 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 425, time: 57.541) total: 0.004525 simple: 0.004525 vlb: 0.000024 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 450, time: 59.250) total: 0.000528 simple: 0.000528 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 475, time: 60.952) total: 0.004047 simple: 0.004047 vlb: 0.000069 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 500) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 500, time: 64.321) total: 0.000943 simple: 0.000943 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 525, time: 71.806) total: 0.000631 simple: 0.000631 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 550, time: 73.647) total: 0.001173 simple: 0.001173 vlb: 0.000007 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 575, time: 75.372) total: 0.000578 simple: 0.000578 vlb: 0.000002 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 600) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 600, time: 77.072) total: 0.001035 simple: 0.001035 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 625, time: 84.303) total: 0.000989 simple: 0.000989 vlb: 0.000009 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 650, time: 85.996) total: 0.002173 simple: 0.002173 vlb: 0.000016 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 675, time: 87.691) total: 0.000286 simple: 0.000286 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 700) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 700, time: 89.393) total: 0.002406 simple: 0.002406 vlb: 0.000027 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 725, time: 96.618) total: 0.000909 simple: 0.000909 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 750, time: 98.321) total: 0.000491 simple: 0.000491 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 775, time: 100.026) total: 0.000261 simple: 0.000261 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 800) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 800, time: 101.727) total: 0.000158 simple: 0.000158 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 825, time: 108.950) total: 0.000863 simple: 0.000863 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 850, time: 110.655) total: 0.000139 simple: 0.000139 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 875, time: 112.358) total: 0.001581 simple: 0.001581 vlb: 0.000011 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 900) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 900, time: 114.067) total: 0.001621 simple: 0.001621 vlb: 0.000009 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 925, time: 120.526) total: 0.000801 simple: 0.000801 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 950, time: 122.232) total: 0.000727 simple: 0.000727 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 975, time: 123.934) total: 0.000595 simple: 0.000595 vlb: 0.000007 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1000) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1000, time: 127.518) total: 0.001112 simple: 0.001112 vlb: 0.000011 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1025, time: 135.076) total: 0.000709 simple: 0.000709 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1050, time: 136.787) total: 0.000162 simple: 0.000162 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1075, time: 138.481) total: 0.000449 simple: 0.000449 vlb: 0.000002 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1100) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1100, time: 140.188) total: 0.000516 simple: 0.000516 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1125, time: 147.416) total: 0.001172 simple: 0.001172 vlb: 0.000007 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1150, time: 149.127) total: 0.000212 simple: 0.000212 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1175, time: 150.845) total: 0.000157 simple: 0.000157 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1200) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1200, time: 152.548) total: 0.000524 simple: 0.000524 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1225, time: 159.780) total: 0.000686 simple: 0.000686 vlb: 0.000008 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1250, time: 161.498) total: 0.000112 simple: 0.000112 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1275, time: 163.193) total: 0.000088 simple: 0.000088 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1300) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1300, time: 164.898) total: 0.000114 simple: 0.000114 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1325, time: 172.122) total: 0.000338 simple: 0.000338 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1350, time: 173.815) total: 0.000734 simple: 0.000734 vlb: 0.000008 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1375, time: 175.516) total: 0.000056 simple: 0.000056 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1400) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1400, time: 177.225) total: 0.000295 simple: 0.000295 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1425, time: 183.676) total: 0.000068 simple: 0.000068 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1450, time: 185.386) total: 0.000890 simple: 0.000890 vlb: 0.000014 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1475, time: 187.081) total: 0.000211 simple: 0.000211 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1500) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1500, time: 190.564) total: 0.001327 simple: 0.001327 vlb: 0.000016 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1525, time: 197.933) total: 0.000694 simple: 0.000694 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1550, time: 199.639) total: 0.000733 simple: 0.000733 vlb: 0.000021 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1575, time: 201.333) total: 0.000530 simple: 0.000530 vlb: 0.000005 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1600) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1600, time: 203.039) total: 0.000513 simple: 0.000513 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1625, time: 210.266) total: 0.000357 simple: 0.000357 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1650, time: 211.977) total: 0.006597 simple: 0.006597 vlb: 0.003202 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1675, time: 213.682) total: 0.000325 simple: 0.000325 vlb: 0.000003 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1700) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1700, time: 215.383) total: 0.000211 simple: 0.000211 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1725, time: 222.609) total: 0.000422 simple: 0.000422 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1750, time: 224.308) total: 0.000991 simple: 0.000991 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1775, time: 226.010) total: 0.003039 simple: 0.003039 vlb: 0.000220 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1800) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1800, time: 227.711) total: 0.000142 simple: 0.000142 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1825, time: 234.943) total: 0.000286 simple: 0.000286 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1850, time: 236.665) total: 0.000109 simple: 0.000109 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1875, time: 238.368) total: 0.000749 simple: 0.000749 vlb: 0.000012 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 1900) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1900, time: 240.072) total: 0.000129 simple: 0.000129 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1925, time: 246.520) total: 0.000620 simple: 0.000620 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1950, time: 248.220) total: 0.000367 simple: 0.000367 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 1975, time: 249.917) total: 0.000412 simple: 0.000412 vlb: 0.000002 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2000) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2000, time: 253.390) total: 0.000090 simple: 0.000090 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2025, time: 260.765) total: 0.000205 simple: 0.000205 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2050, time: 262.479) total: 0.001019 simple: 0.001019 vlb: 0.000017 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2075, time: 264.187) total: 0.000184 simple: 0.000184 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2100) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2100, time: 265.889) total: 0.000422 simple: 0.000422 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2125, time: 273.128) total: 0.000107 simple: 0.000107 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2150, time: 274.834) total: 0.001962 simple: 0.001962 vlb: 0.000048 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2175, time: 276.537) total: 0.000165 simple: 0.000165 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2200) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2200, time: 278.233) total: 0.001336 simple: 0.001336 vlb: 0.000067 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2225, time: 285.455) total: 0.000597 simple: 0.000597 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2250, time: 287.153) total: 0.000047 simple: 0.000047 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2275, time: 288.844) total: 0.000121 simple: 0.000121 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2300) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2300, time: 290.535) total: 0.000413 simple: 0.000413 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2325, time: 297.760) total: 0.000048 simple: 0.000048 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2350, time: 299.457) total: 0.000484 simple: 0.000484 vlb: 0.000003 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2375, time: 301.157) total: 0.000159 simple: 0.000159 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2400) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2400, time: 302.852) total: 0.000083 simple: 0.000083 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2425, time: 309.327) total: 0.000869 simple: 0.000869 vlb: 0.000033 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2450, time: 311.038) total: 0.000102 simple: 0.000102 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2475, time: 312.742) total: 0.000134 simple: 0.000134 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2500) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2500, time: 316.224) total: 0.000169 simple: 0.000169 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2525, time: 324.146) total: 0.002157 simple: 0.002157 vlb: 0.000070 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2550, time: 325.838) total: 0.000084 simple: 0.000084 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2575, time: 327.526) total: 0.000577 simple: 0.000577 vlb: 0.000019 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2600) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2600, time: 329.235) total: 0.000226 simple: 0.000226 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2625, time: 336.472) total: 0.001425 simple: 0.001425 vlb: 0.000046 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2650, time: 338.165) total: 0.000435 simple: 0.000435 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2675, time: 339.872) total: 0.000184 simple: 0.000184 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2700) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2700, time: 341.568) total: 0.000094 simple: 0.000094 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2725, time: 348.796) total: 0.000166 simple: 0.000166 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2750, time: 350.504) total: 0.000191 simple: 0.000191 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2775, time: 352.218) total: 0.000036 simple: 0.000036 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2800) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2800, time: 353.918) total: 0.000745 simple: 0.000745 vlb: 0.000014 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2825, time: 361.153) total: 0.000390 simple: 0.000390 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2850, time: 362.859) total: 0.000204 simple: 0.000204 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2875, time: 364.564) total: 0.000923 simple: 0.000923 vlb: 0.000029 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 2900) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2900, time: 366.276) total: 0.000121 simple: 0.000121 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2925, time: 372.737) total: 0.000168 simple: 0.000168 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2950, time: 374.451) total: 0.000241 simple: 0.000241 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 2975, time: 376.157) total: 0.000080 simple: 0.000080 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 3000) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3000, time: 379.621) total: 0.000182 simple: 0.000182 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3025, time: 387.001) total: 0.000217 simple: 0.000217 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3050, time: 388.779) total: 0.000059 simple: 0.000059 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3075, time: 390.486) total: 0.000236 simple: 0.000236 vlb: 0.000001 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 3100) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3100, time: 392.187) total: 0.000476 simple: 0.000476 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3125, time: 399.421) total: 0.000294 simple: 0.000294 vlb: 0.000002 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3150, time: 401.127) total: 0.000047 simple: 0.000047 vlb: 0.000000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3175, time: 402.827) total: 0.000262 simple: 0.000262 vlb: 0.000003 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 3200) dummy_metrics: 0.000 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3200, time: 404.534) total: 0.000161 simple: 0.000161 vlb: 0.000001 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3225, time: 411.756) total: 0.000369 simple: 0.000369 vlb: 0.000004 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3250, time: 413.451) total: 0.000495 simple: 0.000495 vlb: 0.000005 
+[continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] (GPU: 0, iters: 3275, time: 415.158) total: 0.000042 simple: 0.000042 vlb: 0.000000 
+([continue-2024-11-15T03-41-43-sdfusion-txt2shape-text2shape-all-LR1e-5-clean-code] [test] GPU: 0, steps: 3300) dummy_metrics: 0.000 

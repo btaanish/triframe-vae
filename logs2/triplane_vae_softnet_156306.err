@@ -1,0 +1,56 @@
+/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train.py:40: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/triplane_vae_model.py:267: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(ckpt, map_location=map_fn)
+  0%|          | 0/200000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train_stage1_triplane_vae.py", line 33, in <module>
+    train_main_worker(opt, model, train_dl, test_dl, test_dl_for_eval, visualizer, opt.device)
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train.py", line 143, in train_main_worker
+    model.optimize_parameters(iter_i)
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/triplane_vae_model.py", line 221, in optimize_parameters
+    self.forward()
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/triplane_vae_model.py", line 134, in forward
+    self.x_recon, self.mu, self.logvar = self.vae(self.x)
+                                         ^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/networks/triplane_vae_network.py", line 293, in forward
+    recon = self.decode(z)
+            ^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/networks/triplane_vae_network.py", line 273, in decode
+    sdf = self.decoder(z)
+          ^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/models/networks/triplane_vae_network.py", line 220, in forward
+    sdf = self.sdf_mlp(combined_feats)  # B, N, 1
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 GiB. GPU 0 has a total capacity of 93.09 GiB of which 9.49 GiB is free. Including non-PyTorch memory, this process has 83.58 GiB memory in use. 83.78 GiB allowed; Of the allocated memory 82.89 GiB is allocated by PyTorch, and 26.25 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  0%|          | 0/200000 [00:03<?, ?it/s]
+srun: error: xgpi6: task 0: Exited with exit code 1

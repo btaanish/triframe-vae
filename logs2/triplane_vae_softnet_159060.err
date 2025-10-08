@@ -1,0 +1,16 @@
+/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train.py:40: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+Traceback (most recent call last):
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/train_stage2_edm_diffusion.py", line 25, in <module>
+    train_dl, test_dl, test_dl_for_eval = CreateDataLoader(opt)
+                                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/datasets/dataloader.py", line 12, in CreateDataLoader
+    train_dataset, test_dataset = CreateDataset(opt)
+                                  ^^^^^^^^^^^^^^^^^^
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/datasets/base_dataset.py", line 81, in CreateDataset
+    train_dataset.initialize(opt, 'train', cat=opt.cat, res=opt.res)
+  File "/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP/datasets/softnet_sdf_dataset.py", line 23, in initialize
+    for item in os.listdir(self.dataroot):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/sdf_processed'
+srun: error: xgpi1: task 0: Exited with exit code 1

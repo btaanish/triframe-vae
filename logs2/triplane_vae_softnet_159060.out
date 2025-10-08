@@ -1,0 +1,68 @@
+[Wed Oct  8 12:09:40 AM +08 2025] Job starting on: xgpi1
+/home/stuproj/tkr-ml/venvs/llama2-70b/bin/python
+Python 3.12.3
+sys.path = [
+    '/home/stuproj/tkr-ml/SoftNet/Soft-Fusion-FYP',
+    '/home/stuproj/tkr-ml/venvs/llama2-70b/lib/python3.12/site-packages',
+    '/usr/lib/python312.zip',
+    '/usr/lib/python3.12',
+    '/usr/lib/python3.12/lib-dynload',
+]
+USER_BASE: '/home/stuproj/tkr-ml/.local' (exists)
+USER_SITE: '/home/stuproj/tkr-ml/.local/lib/python3.12/site-packages' (doesn't exist)
+ENABLE_USER_SITE: False
+python train_stage2_edm_diffusion.py --name edm_diffusion_softnet --dataset_mode softnet_sdf --dataroot data/sdf_processed --batch_size 4 --lr 0.0001 --total_iters 500000 --save_steps_freq 10000 --print_freq 100 --display_freq 1000 --gpu_ids 0
+------------ Options -------------
+backend: gloo
+batch_size: 4
+cat: chair
+ckpt: None
+continue_train: False
+dataroot: data/sdf_processed
+dataset_mode: softnet_sdf
+ddim_eta: 0.0
+ddim_steps: 100
+debug: 0
+device: cuda
+df_cfg: configs/sdfusion_snet.yaml
+display_freq: 1000
+distributed: False
+gpu_ids: 0
+gpu_ids_str: 0
+isTrain: True
+lambda_L1: 10.0
+local_rank: 0
+logs_dir: ./logs
+lr: 0.0001
+lr_decay_iters: 50
+lr_policy: lambda
+max_dataset_size: 2147483648
+model: sdfusion
+nThreads: 9
+name: edm_diffusion_softnet
+phase: train
+print_freq: 100
+rank: 0
+ratio: 1.0
+res: 64
+save_epoch_freq: 5
+save_latest_freq: 500
+save_steps_freq: 10000
+seed: 111
+serial_batches: False
+total_iters: 500000
+trunc_thres: 0.2
+uc_scale: 1.0
+vq_cat: None
+vq_cfg: configs/vqvae_snet.yaml
+vq_ckpt: None
+vq_dset: None
+vq_model: vqvae
+which_epoch: latest
+-------------- End ----------------
+[*] Starting EDM Diffusion Training
+    Model: edm-triplane-txt2shape
+    VAE checkpoint: /logs/continue-triplane_vae_softnet/ckpt/triplane_vae_steps-latest.pth
+    Device: cuda
+[*] Loading Softnet SDF data from: data/sdf_processed
+[Wed Oct  8 12:09:45 AM +08 2025] Job finished.
